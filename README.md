@@ -6,6 +6,7 @@ conda env create -f environment.yaml
 conda activate UTR_Insight
 
 Set up Model
+
 pip install fair-esm
 find -name esm
 scp -r ./Scripts/esm ./.conda/envs/UTRLM/lib/python3.9/site-packages/ # Move the folder ./Scripts/esm/ to the conda env fold, such as ./.conda/envs/UTRLM/lib/python3.9/site-packages/
